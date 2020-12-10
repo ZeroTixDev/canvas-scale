@@ -17,6 +17,7 @@ window.addEventListener('keyup', ({ keyCode }) => {
       if (keyCode === 82) {
          window.view = !window.view;
          draw();
+         return;
       } else {
          return;
       }
